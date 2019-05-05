@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="WorkersContext-Web.config Connection String" description="WorkersContext A Cadeia de Conexão usada em web.config pelo aplicativo para acessar o banco de dados." defaultValue="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=WorkersContext-20190424100958; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|WorkersContext-20190424100958.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Daniel\\Source\\Repos\\WorkersApi\\Workers\\Workers\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='WorkersContext']/@connectionString" />
+  </parameter>
+</parameters>

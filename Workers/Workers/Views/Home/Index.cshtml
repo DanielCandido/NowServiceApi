@@ -16,7 +16,7 @@
             <div class="panel-body">
                 <ul class="list-unstyled" data-bind="foreach: prestadors">
                     <li>
-                        <strong><span data-bind="text: Nome"></span></strong>: <span data-bind="text: Sobrenome"></span>
+                        <strong><span data-bind="text: Nome"></span> <span data-bind="text: Sobrenome"></span></strong>
                         <small><a href="#" data-bind="click: $parent.getPrestadorDetail">Detalhes</a></small>
                     </li>
                 </ul>
@@ -51,7 +51,7 @@
         <div class="panel-body">
             <form class="form-horizontal" data-bind="submit: addPrestador">
                 <div class="form-group">
-                    <label for="inputCategoria" class="col-sm-2 control-label">CATEGORIA</label>
+                    <label for="inputCategoria" class="col-sm-2 control-label">CATEGORIA</label><br />
                     <div class="col-sm-10">
                         <select data-bind="options:categorias, optionsText: 'Nome', value: newPrestador.Categoria"></select>
                     </div>
